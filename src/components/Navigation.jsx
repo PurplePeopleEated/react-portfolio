@@ -3,15 +3,15 @@ import { Link, useLocation } from "react-router-dom";
 
 function Navigation() {
   const location = useLocation();
-  const activeLink = "text-blue-500 font-bold";
-  const inactiveLink = "text-gray-500 hover:font-bold";
+  const activeLink = "text-white font-bold";
+  const inactiveLink = "text-slate-900 hover:font-bold";
 
   return (
   <>
-    {/* <Link>
-      fisrtfskladjf
-    </Link> */}
-      <nav>
+    <Link to="/" className="text-lg font-semibold">
+      Karra Maynard
+    </Link>
+      <nav className="flex space-x-4">
         <Link to="/" className={location.pathname === "/" ? activeLink : inactiveLink}>
         About Me
         </Link>
