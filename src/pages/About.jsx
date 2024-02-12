@@ -1,7 +1,7 @@
 function Home() {
   return (
     <div className="flex flex-col items-center justify-center pb-5">
-      <img className="w-64 h-64 rounded-full mb-3" src="./public/assets/timothy.jpg" alt="timothy the egg"></img>
+      <img className="w-64 h-64 rounded-full mb-3" src="/assets/Timothy.jpg" alt="timothy the egg"></img>
       <h1 className="text-3xl font-bold">About Me</h1>
       <p className="text-base mb-3 font-medium">Web Developer</p>
       <pre class="whitespace-pre-wrap bg-gray-100 p-4 rounded-lg">
