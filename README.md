@@ -14,6 +14,8 @@ This is a static website designed to be my portfolio of work!
 
 Use the About Me, Projects, and Contact tabs to navigate to different pages. Each project has a link to the deployed site and a link to it's GitHub repository.
 
+Vist my website [here](https://powerful-shelf-61388-a7211dc40732.herokuapp.com/)!
+
 ![image of website](scrnshot.png)
 
 ## License
